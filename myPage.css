@@ -1,0 +1,25 @@
+html, body {overflow:hidden; margin:0px; padding:0px;}
+
+#bloc-fixe {
+  position:fixed;
+  overflow:auto;
+  left:0px;
+  width:118px;
+  bottom:0px;
+  top:0px;
+}
+#contenu {
+  position:fixed;
+  overflow:auto;
+  left:138px;
+  width:450px;
+  bottom:0px;
+  top:0px;
+} <!--[if lt IE 7]>
+  <STYLE type=text/css>
+    html, body {height:100%;}
+    #bloc-fixe, #contenu {
+      position:absolute; height:100%;
+    }
+  </STYLE>
+<![endif]-->

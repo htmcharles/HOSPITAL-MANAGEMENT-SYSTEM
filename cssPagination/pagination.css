@@ -1,0 +1,119 @@
+.pagination {
+    color: #000;
+    font-size: 18px;
+    height: auto;
+    line-height: 3em;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+.button {
+background: linear-gradient(to bottom, rgb(97,196,25) 0%,rgb(149,226,90) 100%);
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 6px 0px 0px rgba(88, 163, 31, 1),
+    0px 5px 12px 0px rgba(0, 0, 0, 0.6),
+    inset 0px 0px 10px -5px rgba(0, 0, 0, 1);
+  transition: all 100ms linear;
+  touch-callout: none;
+  user-select: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  
+  font-family: Arial Black, Gadget, sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  
+    display: block;
+	-webkit-transform: skew(5deg, 0deg);
+	
+		top: 4px;
+  box-shadow: 0px 2px 0px 0px rgba(88, 163, 31, 1),
+    0px 5px 5px 0px rgba(0, 0, 0, 0.6),
+    inset 0px 0px 10px -5px rgba(0, 0, 0, 1);
+}
+
+.pagination a,
+.pagination span {
+	padding:0.2em 0.5em;
+}
+.pagination a {
+    background-color: #fff;
+    border: 1px solid #a00000;
+    border-radius: 2px;
+    color: #a00000;
+    margin-right: 5px;
+    padding: 6px 22px;
+    text-decoration: none;
+}
+.pagination a:hover {
+    background-color: #a00000;
+    border: medium none;
+    color: #eee;
+    font-size: 85%;
+    font-weight: bold;
+    transition: all 0.1s linear 0s;
+}
+.pagination .prevnext {
+	font-weight:bold;
+}
+.pagination span.disabled {
+	border:1px solid #DDDDDD;
+	color:red;
+	margin-right:3px;
+	padding:2px 5px;
+	border: 1px solid #606060;
+	background-color:gray;
+}
+.pagination span.current {
+    color: #a00000;
+    font-size: 85%;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 2px 5px;
+}
+/* 
+body {
+	margin-top: 50px;
+}
+
+button {
+  background: linear-gradient(to bottom, rgb(97,196,25) 0%,rgb(149,226,90) 100%);
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 6px 0px 0px rgba(88, 163, 31, 1),
+    0px 5px 12px 0px rgba(0, 0, 0, 0.6),
+    inset 0px 0px 10px -5px rgba(0, 0, 0, 1);
+  transition: all 100ms linear;
+  touch-callout: none;
+  user-select: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  
+  font-family: Arial Black, Gadget, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button > span {
+  display: block;
+	-webkit-transform: skew(5deg, 0deg);
+}
+
+button:active {
+	top: 4px;
+  box-shadow: 0px 2px 0px 0px rgba(88, 163, 31, 1),
+    0px 5px 5px 0px rgba(0, 0, 0, 0.6),
+    inset 0px 0px 10px -5px rgba(0, 0, 0, 1);
+}	
+*/
